@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudScale App - Project 2</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: #f8fafc;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 3rem;
+            border-radius: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+        }
+        h1 { color: #38bdf8; margin-bottom: 0.5rem; font-size: 2.5rem; }
+        p { color: #94a3b8; font-size: 1.1rem; line-height: 1.6; }
+        .badge { background-color: #0284c7; padding: 0.5rem 1rem; border-radius: 9999px; font-weight: 600; display: inline-block; margin-bottom: 1.5rem; }
+        .team-list { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+        .team-member { font-weight: bold; color: #e2e8f0; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="badge">Project 2: Live on Azure ACI</span>
+        <h1>CloudScale App</h1>
+        <p>This application was packaged into a Docker image, pushed to Docker Hub, and deployed automatically via a GitHub Actions CI/CD pipeline using Terraform.</p>
+        <div class="team-list">
+            <h3>DevOps Team:</h3>
+            <p class="team-member">?? Jane Doe (ID: 123456)</p>
+            <p class="team-member">?? John Smith (ID: 654321)</p>
+        </div>
+    </div>
+</body>
+</html>
