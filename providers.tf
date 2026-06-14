@@ -8,7 +8,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "terraform-state-rg"
-    storage_account_name = "YOUR_UNIQUE_STORAGE_ACCOUNT" # REPLACE WITH LAB 8 STORAGE ACCOUNT NAME
+    storage_account_name = "tfstate4909" # REPLACE WITH LAB 8 STORAGE ACCOUNT NAME
     container_name       = "tfstate"
     key                  = "project2.tfstate"
   }

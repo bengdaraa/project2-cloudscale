@@ -8,5 +8,5 @@ variable "location" {
 }
 variable "docker_image" {
   type        = string
-  default     = "your_dockerhub_username/cloudscale-app:v1" # REPLACE WITH DOCKER NAME
+  default     = "bengdara" # REPLACE WITH DOCKER NAME
 }
